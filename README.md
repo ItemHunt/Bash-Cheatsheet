@@ -1,7 +1,7 @@
 # Bash Cheatsheet
 
 ## Introduction
-The Bash Cheatsheet repository is a place where you can view a cheatsheet for bash, a command-line interface language. You can also find useful pieces of information here (especially for beginners) and learning resources which are related to bash in one way or another. This repository is a mini-project for a much bigger project called the [*Learning-Hub Project*](https://github.com/ItemHunt/Learning-Hub). 
+The Bash Cheatsheet repository is a place where you can view a cheatsheet for bash, a command-line interface language that is regularly used in stuff like Linux or maybe Git Bash. You can also find useful pieces of information here (especially for beginners) and learning resources which are related to bash in one way or another. This repository is a mini-project for a much bigger project called the [*Learning-Hub Project*](https://github.com/ItemHunt/Learning-Hub). 
 
 ## How to Contribute
 I welcome any contributors to this mini-project. Feel free to fork the project and add/edit stuff here and send out a pull request for review. If all is good, I should approve the pull request. In case you are new to GitHub, refer to [CONTRIBUTING](CONTRIBUTING.md) for a more detailed guide.
