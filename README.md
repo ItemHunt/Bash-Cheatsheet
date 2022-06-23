@@ -17,24 +17,24 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 
 ### Table of Contents
 #### General bash
-- [Essentials](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#essentials)
-- [Search & Navigation](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#search--navigation)
-- [System Details & Modification](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#system-details--modification)
-- [Directory or File Use/Modification/Deletion/Creation](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#directory-or-file-usemodificationdeletioncreation)
-- [Networking & Servers](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#networking--servers)
-- [Package Management](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#package-management)
-- [Process Management](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#process-management)
-- [Others](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#others)
+- [Essentials](https://github.com/ItemHunt/Bash-Cheatsheet#essentials)
+- [Search & Navigation](https://github.com/ItemHunt/Bash-Cheatsheet#search--navigation)
+- [System Details & Modification](https://github.com/ItemHunt/Bash-Cheatsheet#system-details--modification)
+- [Directory or File Use/Modification/Deletion/Creation](https://github.com/ItemHunt/Bash-Cheatsheet#directory-or-file-usemodificationdeletioncreation)
+- [Networking & Servers](https://github.com/ItemHunt/Bash-Cheatsheet#networking--servers)
+- [Package Management](https://github.com/ItemHunt/Bash-Cheatsheet#package-management)
+- [Process Management](https://github.com/ItemHunt/Bash-Cheatsheet#process-management)
+- [Others](https://github.com/ItemHunt/Bash-Cheatsheet#others)
 
 #### Git Bash
-- [General Commands](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#general-commands)
-- [Git Branches](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#git-branches)
-- [User-Setting Modification](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#user-setting-modification)
-- [Others](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#others-1)
+- [General Commands](https://github.com/ItemHunt/Bash-Cheatsheet#networking--servers)
+- [Git Branches](https://github.com/ItemHunt/Bash-Cheatsheet#git-branches)
+- [User-Setting Modification](https://github.com/ItemHunt/Bash-Cheatsheet#user-setting-modification)
+- [Others](https://github.com/ItemHunt/Bash-Cheatsheet#others-1)
 
 #### Bash Shortcut Keys and Symbols
-- [Symbols](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#symbols)
-- [Bash Shortcuts](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#bash-shortcuts)
+- [Symbols](https://github.com/ItemHunt/Bash-Cheatsheet#symbols)
+- [Bash Shortcuts](https://github.com/ItemHunt/Bash-Cheatsheet#bash-shortcuts)
 
 ### General Bash
 #### Essentials
@@ -52,6 +52,7 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **$ locate -** uses the locale database to search for things on the system
 - **$ which -** provides the path to a specificed file or link
 - **$ find -** searches for files in a directory hierarchy
+- **$ grep -** searches for specific results that have given patterns
 
 #### System Details & Modification
 - **$ whoami -** tells you what user you are logged in as
@@ -64,14 +65,19 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **$ usermod -** modifies a user account
 - **$ passwd -** changes the password of a user
 - **$ su -** used to switch users
+- **$ lsblk -** Lists block devices
+- **$ lsusb -** lists USB devices
+- **$ lsof -** lists opened files
+- **$ lspci -** lists PCI devices
 
 #### Directory or File Use/Modification/Deletion/Creation
 - **$ mkdir '(name of new directory)' -** creates a directory inside the current branch of the repository
 - **$ rmdir '(name of target directory)' -** removes a target directory
 - **$ rm '(name of file  + format)' -** removes a target file
 - **$ cat '(file name with format)' -** prints the contents of the file into the terminal
-- **$ mv '(target file/directory + format)' '(new file/directory name + format)' -** renames a target file/directory to a desired name
-- **$ mv '(file/directory)' '(new file path destination)' -** helps move files to a specific area
+- **$ mv -** used to move or rename files
+- **$ cp -** used to copy files or directories
+- **$ touch '(file name and format)' -** allows you to create a file of your choice
 
 #### Networking & Servers
 - **$ ifconfig -** Used to deal with the network interface
@@ -102,14 +108,7 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **$ ss -** used to investigate sockets
 - **$ who -** shows who is currently logged in
 - **$ env -** prints the environtment or sets and then runs a commands
-- **$ lsblk -** Lists block devices
-- **$ lsusb -** lists USB devices
-- **$ lsof -** lists opened files
-- **$ lspci -** lists PCI devices
-- **$ touch '(file name and format)' -** allows you to create a file of your choice in your git repository
 - **$ tree -** command to list the things inside of a directory recursively
-- **$ mv -** used to move or rename files
-- **$ cp -** used to copy files or directories
 - **$ nano -** used to open and use Nano, a terminal based text editor that is easier to use than Vim
 - **$ vim -** used to open and use Vim, a terminal based text editor that can do a lot of stuff but is difficult to use
 - **$ updatedb -** updates the locale database for existing contents on the system
@@ -118,7 +117,6 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **$ head -** prints the first ten lines of STDOUT or a file
 - **$ tail -** prints the last ten lines of STDOUT or a file
 - **$ sort -** sorts the contents of a file or STDOUT
-- **$ grep -** searches for specific results that have given patterns
 - **$ cut -** removes sections from each line of files
 - **$ tr -** replaces certain characters
 - **$ column -** utility that format its input into multiple columns
