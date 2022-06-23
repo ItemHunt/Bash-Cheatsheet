@@ -1,21 +1,41 @@
 # Bash Cheatsheet
 
-## Table of Contents
-
 ## Introduction
 The Bash Cheatsheet repository is a place where you can view a cheatsheet for bash, a command-line interface language. You can also find useful pieces of information here (especially for beginners) and learning resources which are related to bash in one way or another. This repository is a mini-project for a much bigger project called the [*Learning-Hub Project*](https://github.com/ItemHunt/Learning-Hub). 
 
 ## How to Contribute
-I welcome any contributors to this mini-project. Feel free to fork the project and add/edit stuff here and send out a pull request for review. If all is good, I should approve the pull request. 
+I welcome any contributors to this mini-project. Feel free to fork the project and add/edit stuff here and send out a pull request for review. If all is good, I should approve the pull request. In case you are new to GitHub, refer to [CONTRIBUTING](CONTRIBUTING.md) for a more detailed guide.
 
 ## Contributors
-<a href="https://github.com/ItemHunt/bash-cheatsheet/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ItemHunt/bash-cheatsheet" />
+<a href="https://github.com/ItemHunt/Bash-Cheatsheet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ItemHunt/Bash-Cheatsheet" />
 </a>
 
 <!-- Contributors section made with [contrib.rocks](https://contrib.rocks). -->
 
 ## Cheatsheet
+
+### Table of Contents
+#### General bash
+- [Essentials](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#essentials)
+- [Search & Navigation](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#search--navigation)
+- [System Details & Modification](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#system-details--modification)
+- [Directory or File Use/Modification/Deletion/Creation](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#directory-or-file-usemodificationdeletioncreation)
+- [Networking & Servers](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#networking--servers)
+- [Package Management](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#package-management)
+- [Process Management](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#process-management)
+- [Others](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#others)
+
+#### Git Bash
+- [General Commands](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#general-commands)
+- [Git Branches](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#git-branches)
+- [User-Setting Modification](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#user-setting-modification)
+- [Others](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#others-1)
+
+#### Bash Shortcut Keys and Symbols
+- [Symbols](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#symbols)
+- [Bash Shortcuts](https://github.com/ItemHunt/Learning-Hub/blob/master/languages/Bash/Cheatsheet.md#bash-shortcuts)
+
 ### General Bash
 #### Essentials
 - **$ man '(tool)' -** opens an extensive help menu for the specified command
