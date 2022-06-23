@@ -36,6 +36,10 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - [Symbols](https://github.com/ItemHunt/Bash-Cheatsheet#symbols)
 - [Bash Shortcuts](https://github.com/ItemHunt/Bash-Cheatsheet#bash-shortcuts)
 
+#### Additional Information & Learning Resources
+- [Additional Information For Bash](https://github.com/ItemHunt/Bash-Cheatsheet#additional-information-for-bash)
+- [Learning Resources List](https://github.com/ItemHunt/Bash-Cheatsheet#learning-resources-list)
+
 ### General Bash
 #### Essentials
 - **$ man '(tool)' -** opens an extensive help menu for the specified command
@@ -184,6 +188,10 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **.gitignore** is a file that allows you to have Git ignore specific files or folders in your local repository. To use it, simply put the file name or folder that you want to be ignored. If you have a text file called "Text.txt" just type its name inside .gitignore to have Git ignore that specific file
 
 ## Learning Resources List
+
+### Bash 
+- Linux Fundamentals (video) https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL
+- HTB Academy Linux Fundamentals (website) https://academy.hackthebox.com/module/details/18
 
 ### Git Bash
 - Git Documentation Link (website) https://git-scm.com/doc
