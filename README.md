@@ -180,6 +180,13 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **alt and tab** helps you switch between opened applications
 - **ctrl +** lets you zoom in
 - **ctrl -** lets you zoom out
+- **ctrl + u -** erases everything from the current spot of the cursor to the beginning of the line
+- **ctrl + k -** erases everything from the current spot of the cursor to the end of the line
+- **ctrl + w -** erases the word preceding the cursor position
+- **ctrl + d -** closes STDIN pipe, also known as End-Of-File (EOF) or End-of-Transmission
+- **ctrl + z -** closes the current process by sending a SIGTSTP signal
+- ** -**
+- ** -**
 
 ## Additional Information For Bash
 
