@@ -185,8 +185,7 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **ctrl + w -** erases the word preceding the cursor position
 - **ctrl + d -** closes STDIN pipe, also known as End-Of-File (EOF) or End-of-Transmission
 - **ctrl + z -** closes the current process by sending a SIGTSTP signal
-- ** -**
-- ** -**
+- **Alt + Tab -** siwtch between opened applications
 
 ## Additional Information For Bash
 
