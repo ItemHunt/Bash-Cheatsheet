@@ -41,7 +41,7 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 ## Cheatsheet
 ### General Bash
 #### Essentials
-- **$ man '(tool)' -** opens an extensive help menu for the specified command
+- **``$ man '(tool)'`` -** opens an extensive help menu for the specified command
 - **$ '(tool)' -h/help -** opens a brief help menu for the specified command
 - **$ apropos '(keyword)' -** searches for terminal commands that correlate to the specified keyword
 - **$ sudo -** allows you to execute a command with admin rights
